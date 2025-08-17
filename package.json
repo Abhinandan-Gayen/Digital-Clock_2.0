@@ -3,17 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Abhinandan-Gayen.github.io/Digital-Clock_2.0/",
+  "homepage": "https://Abhinandan-Gayen.github.io/Digital-Clock-3.0/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
+    "dist": "^0.1.2",
     "eslint-plugin-react": "^7.37.5",
     "gh-pages": "^6.3.0",
     "react": "^19.1.0",
